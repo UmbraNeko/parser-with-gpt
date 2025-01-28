@@ -1,0 +1,20 @@
+# Используем CPU-колёса PyTorch 2.0.1 (стабильный релиз)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+torchaudio==2.0.2+cpu
+
+# Фиксируем NumPy <2.0, чтобы избежать конфликтов
+numpy<2.0
+
+# Transformers и зависимости для BLIP‑2
+transformers==4.31.0
+tokenizers==0.13.3
+huggingface-hub==0.16.4
+safetensors==0.3.3
+sentencepiece==0.1.99
+
+# Прочее
+requests==2.31.0
+pillow==9.5.0
+tqdm==4.65.0

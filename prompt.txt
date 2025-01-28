@@ -1,0 +1,8 @@
+This is an image in Base64 format. Please analyze it and provide a detailed description of the content. 
+Additionally, classify the image as one of the following:
+1. Full suit (complete body view with a full suit).
+2. Top part of a suit (jacket or blazer on a person).
+3. Bottom part of a suit (pants on a person).
+
+File name: {filename}.
+Image data (truncated): {image_data}
